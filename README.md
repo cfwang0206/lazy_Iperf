@@ -3,7 +3,7 @@ Script BY cfwang 2015/12/02
 
 Lazy batch script , use Iperf[1] test bandwidth.
 
-This Lazyscripts could help you , define your options at *** clinet side script *** :  , just setting & test once done ,
+This Lazyscripts could help you , define your options at **clinet side batch file**   , just setting & test once done ,
 
 then give your user or consumer :) 
 
