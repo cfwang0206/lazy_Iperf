@@ -5,7 +5,7 @@ lazy batch script , call iperf test server 、 client bandwidth.
 
 and colud change define at clinet script : [ 啟動Client測試.BAT ] :P
 
-# Wrote tow Scripts : server/client  bat :
+# Two Scripts : server/client  bat :
 
 1. [啟動server.bat ] - Run at server ; or can Cisco router iperf func.
 
