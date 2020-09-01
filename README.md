@@ -1,11 +1,20 @@
 # lazy_Iperf
-Script BY cfwang 2015/12/02 
+
 
 Lazy batch script , use Iperf[1] test bandwidth.
 
 This Lazyscripts could help you , define your options at **clinet side batch file**   , just setting & test once done ,
 
 then give your user or consumer :) 
+
+---
+
+It an old script , wrote at 2015/12/02.
+
+I hope to share with you.
+
+cfwang
+20200901
 
 # Screenshot - DEMO #
 ![Lazy iPerf script demo](https://github.com/cfwang0206/lazy_Iperf/blob/master/%5BSample%20%5Diperf_lazy.png) 
@@ -18,22 +27,26 @@ then give your user or consumer :)
 2.[ 啟動Client測試.BAT ] - Run  it  clinet , user can tpye ip  ; if not  will use default ip : 192.168.1.2  *(Could modify client.bat define area ) *
 
 
-cfwang
-20200901
 
 REF:
 [1]iPerf - The ultimate speed test tool for TCP, UDP and SCTP Test the limits of your network + Internet neutrality test,https://iperf.fr/
 
 [2]iPerf documentation,https://iperf.fr/iperf-doc.php
 -------
+
 [中文 Chinese]
 
-又整理出一個一個偷懶的script ,  透過 iPerf[1] 來達成，測速需求用 ( 因為設定好一次就好 )
+這個測速的批次檔是在2015/12/02 寫的小工具 ,  透過 iPerf[1] 來達成，測速需求用 ( 設定跟/測試就好 )
 
-Script BY cfwang 2015/12/02 
+這個批次擋我覺得我自己用起來滿方便的，因此希望能夠能跟大家分享。
 
-本批次擋的好處是，可以執行 clinet.bat 讓使用者可以自己打IP 或是 管理者定義好在批次檔裡頭的預設 IP ，進行測試。
-記得 Server 端要先執行 [啟動server.bat] !
+cfwang 20200901
+
+----------
+#介紹:
+本批次擋的好處是，可以讓使用者執行 clinet.bat ，使用者 ( User ) 可以自己打IP 或是直接按 Enter，執行管理者定義好在批次檔裡頭的預設 IP ，進行測試。
+
+記得 Server 端要先執行 [啟動server.bat] 喔!
 
 #  批次擋( Batch file) 分成 Server / Client 用戶端 : 
 
