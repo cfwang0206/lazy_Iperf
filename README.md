@@ -37,10 +37,13 @@ Script BY cfwang 2015/12/02
 
 #  批次擋( Batch file) 分成 Server / Client 用戶端 : 
 
-1. 伺服器端 (Server) :[啟動server.bat]  在 server 端執行 ；也可以是cisco router 如果是支援 iPerf 的路由器就不用執行這隻批次擋.
+1. 伺服器端 (Server) :[啟動server.bat]  在 server 端執行 ；如果是支援 iPerf 的路由器就不用執行這隻批次擋.
 
-2. 用戶端 (Client): [啟動Client測試.BAT ] : 使用者可以自己輸入ip，預設值是定義 '192.168.1.2' ;您 也可以修改成您需要的在參數[2] 在[啟動Client測試.BAT] **定義區*** 裏頭，
-然後給您的用戶或是客戶，這樣子使用者就不用特別改了。
+2. 用戶端 (Client): [啟動Client測試.BAT ] : 使用者可以自己輸入ip，預設值是定義 '192.168.1.2' ;
+
+並且可以修改成您需要的在參數[2] 在[啟動Client測試.BAT] **定義區*** 裏頭，
+
+然後給您的用戶或是客戶，這樣子使用者就不用特別改囉。
 
 ***#定義區如下***:
 
@@ -65,8 +68,9 @@ set CustomCommand=-u -b 2048000000
 REM 設定 Default IP
 set DefaultIP=192.168.1.2
 
-# REM 變數定義區 END
+ REM 變數定義區 END
 ```
+
 REF:
 [1]iPerf - The ultimate speed test tool for TCP, UDP and SCTP Test the limits of your network + Internet neutrality test,https://iperf.fr/
 
