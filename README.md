@@ -22,8 +22,7 @@ cfwang
 20200901
 
 REF:
-[1]iPerf - The ultimate speed test tool for TCP, UDP and SCTP
-Test the limits of your network + Internet neutrality test,https://iperf.fr/
+[1]iPerf - The ultimate speed test tool for TCP, UDP and SCTP Test the limits of your network + Internet neutrality test,https://iperf.fr/
 
 [2]iPerf documentation,https://iperf.fr/iperf-doc.php
 -------
@@ -68,4 +67,7 @@ set DefaultIP=192.168.1.2
 
 # REM 變數定義區 END
 ```
+REF:
+[1]iPerf - The ultimate speed test tool for TCP, UDP and SCTP Test the limits of your network + Internet neutrality test,https://iperf.fr/
 
+[2]iPerf documentation,https://iperf.fr/iperf-doc.php
